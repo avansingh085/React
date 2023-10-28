@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#header{
+  height:80px;
+  width:100%;
+  background-color:darkslateblue;
+  text-align: center;
+  font-size:25px;
+  color:white;
+}
+.box{
+  height:40px;
+  width:60px;
+  border: 2px solid blue;
+}
+
+.buttun-section{
+  height:50px;
+  width:200px;
+}
+.Card{
+  height:300px;
+  width:250px;
+  background-color: rgb(16, 173, 205);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin:20px;
+}
+.card-img{
+  height:120px;
+  width:250px;
+  border-radius: 30px;
+}
+#header{
+  height:65px;
+  width:100%;
+  background-color:chocolate;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+.button-list{
+  height:40px;
+  width:600px;
+}
+.Explor{
+  height:40px;
+  width:150px;
+  background-color:rgb(27, 189, 12);
+  border-width:0px;
+  border-radius: 5px;
+  color:white;
+  font-size:20px;
+}
+.header-button{
+  height:30px;
+  padding:4px 30px;
+  margin:10px;
+  background-color:rgb(13, 202, 69);
+  border-width:0px;
+  border-radius: 5px;
+  color:white;
+}
+.tittle{
+  font-size:25px;
+   width:220px;
+   height:30px;
+   color:white;
+  
+}
+.Course{
+ min-height:100vh;
+  width:100%;
+  background-color: rgb(17, 17, 37);
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  align-items: center;
+  justify-items: center;
+ 
+}
+.about{
+  margin:0px 10px;
+  height:70px;
+  width:220px;
+  overflow-y: hidden;
+}
+.tittle{
+  margin:0px;
+}
+
+
